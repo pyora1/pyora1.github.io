@@ -4,7 +4,6 @@
 
 layout: home
 ---
-# oranssijopo
 ![Kansikuva](/images/kansikuva.jpg)
 
 Oranssijopo on monitaiteellinen ja monimedianen teos, jonka sydämessä on yksilö ja hänen muistonsa paikasta. Se on metafora kuulumiselle, paikkaan sitoutumiselle; Sukellus yksilön mikrohistoriaan, jota kautta yhteiskunnan merkityksettömiltäkin vaikuttavat muutokset, kehitys tai sen puute, koetaan yksilön tuntojen kautta.
