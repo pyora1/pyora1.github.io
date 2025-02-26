@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-left">
+      {%- if site.email -%}
+        <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {%- endif -%}
+    </div>
+    <div class="footer-right">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title | escape }}</p>
+    </div>
+  </div>
+</footer>

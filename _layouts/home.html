@@ -15,12 +15,18 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <!--<span class="post-meta">{{ post.date | date: date_format }}</span>-->
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
+        <span class="post-meta">
+          {% if post.start_date and post.end_date %}
+            {{ post.start_date }} - {{ post.end_date }}
+          {% else %}
+            {{ post.date | date: date_format }}
+          {% endif %}
+        </span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}

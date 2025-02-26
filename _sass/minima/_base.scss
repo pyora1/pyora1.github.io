@@ -95,7 +95,13 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
+  font-weight: $bold-font-weight;
+  text-align: center;
+}
+
+h6 {
+  font-size: $big-font-size;
   font-weight: $base-font-weight;
   text-align: center;
 }
@@ -256,3 +262,11 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/* Minimalistic Audio Player */
+audio {
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+}
+
