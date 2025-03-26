@@ -232,7 +232,7 @@
     @include relative-font-size(2.6);
 
     @include media-query($on-laptop) {
-      @include relative-font-size(25);
+      @include relative-font-size(2.6);
     }
   }
 

@@ -19,8 +19,6 @@ categories: jekyll update
 
 ###### Historiaa Kampissa. Äänikuvia ja kuvakertomus erään kamppilaisen kokemuksesta alati muuttuvassa ympäristössä.
 
----
-
 ## ÄÄNI JA KUVAT 
 
 {% include custom-table.html 
@@ -103,8 +101,6 @@ categories: jekyll update
 
 Malenan polku osa II on jatkoa vuonna 2014 TILA Galleriassa näytteillä olleelle Malenan polku yhteisötaideprojektille, joka pohjautui Malena Granqvistin kokemuksiin Kampissa kasvamisesta, kokemisesta ja elämisestä. Toinen osa uurtaa polkua tulkinnallisemmille urille esittelemällä kymmenen taiteilijan interventioita ja taidetekoja Malenan polun varrella.
 
----
-
 ## REITIN TEOKSET
 
 ![image](/images/1_01.jpg)
@@ -146,7 +142,10 @@ Kuvaus toteutettiin Kampin alueella 4.-7.6.2015 etsimällä kadulta vapaaehtoisi
 
 Taiteellisia interventioita ja taideteoksia Kampin alueella 28.5.2015-27.6.2015
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nGwMt4vHZKM?si=BP_sJITae1FHrsPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/nGwMt4vHZKM?si=BP_sJITae1FHrsPg" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ---
 

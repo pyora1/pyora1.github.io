@@ -258,7 +258,6 @@ table {
     /*padding: ($spacing-unit * 0) ($spacing-unit * 0);*/
     text-align: center;
     object-fit: contain;
-    margin: 5px;
   }
 }
 
@@ -280,3 +279,14 @@ audio {
   margin: 2px;
 }
 
+@media (max-width: 768px) {
+  audio {
+    height: 25px;
+  }
+}
+
+.responsive-iframe {
+  width: 100%;
+  height: 56.25vw; /* 16:9 Aspect Ratio */
+  max-height: 500px; /* Optional: Limit height */
+}
