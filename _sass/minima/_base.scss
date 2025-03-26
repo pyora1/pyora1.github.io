@@ -2,11 +2,18 @@
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+p, blockquote, pre,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+hr {
+  border: 1px solid $text-color;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -239,34 +246,37 @@ pre {
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: $text-color;
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
-    }
-  }
+  max-height: 100vh;
+  font-weight: $bold-font-weight;
   th, td {
-    padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
-  }
-  th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
-  }
-  td {
-    border: 1px solid $grey-color-light;
+    /*padding: ($spacing-unit * 0) ($spacing-unit * 0);*/
+    text-align: center;
+    object-fit: contain;
+    margin: 5px;
   }
 }
 
+table img {
+  height: auto; /* Adjust as needed */
+  width: 100%; /* Maintains aspect ratio */
+  object-fit: contain;
+  vertical-align: top;
+}
+
+/* Responsive Adjustments for Mobile */
+
+
+
 /* Minimalistic Audio Player */
 audio {
-  width: 70%;
-  height: 30px;
-  margin: 5px;
+  width: 90%;
+  height: 35px;
+  margin: 2px;
 }
 
