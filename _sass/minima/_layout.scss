@@ -181,6 +181,7 @@
 
 .page-heading {
   @include relative-font-size(2);
+  font-style: italic;
 }
 
 .post-list-heading {
@@ -199,14 +200,15 @@
 .post-meta {
   font-size: $big-font-size;
   color: $grey-color;
+  margin-top: 0;
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(2);
+  font-weight: $bold-font-weight;
+  margin-bottom: 0em; // tweak this as needed
+  font-style: italic;
 }
-
-
 
 /**
  * Posts
@@ -229,7 +231,7 @@
   margin-bottom: $spacing-unit;
 
   h1 {
-    @include relative-font-size(2.6);
+    @include relative-font-size(2.9);
 
     @include media-query($on-laptop) {
       @include relative-font-size(2.6);

@@ -1,10 +1,14 @@
 <head>
-    <style>
-        .title-1 {
-            font-size: 24px;
-            padding: 0px;
-        }
-        .image-1 {
+  <style>
+    td {
+      vertical-align: top;
+    }
+
+    .audio-cell {
+      padding-bottom: 0.2rem;
+    }
+    
+    .image-1 {
             padding-right: 10px;
         }
         .image-2 {
@@ -27,40 +31,36 @@
             height: auto; /* Maintain the aspect ratio */
             display: block;
         }
-        @media (max-width: 768px) {
-            .title-1 {
-                 font-size: 16px;
-            }
-            .image-2 img {
-              max-height:18vh;
-            }
-        }
-    </style>
-  </head>
+  </style>
+</head>
 
-  <table>
-    <tbody>
-      <tr>
-        <td rowspan="3" class="image-1">
-          <img src="{{ include.image1 }}" alt="Image 1"> 
-        </td>
-        <td class="title-1">
-            {{ include.title }}
-          </td>
-      </tr>
-      <tr>
-        <td class="audio-cell">
-            <audio controls>
-              <source src="{{ include.audio }}" type="audio/mp3"> 
-              Your browser does not support the audio element.
-            </audio>
-          </td>
-      </tr>
-      <tr>
-        <td class="image-2">
-            <img src="{{ include.image2 }}" alt="Map Image"> 
-          </td>
-      </tr>
-    </tbody>
+<table>
+  <tbody>
+    <tr>
+      <td rowspan="4" class="image-1">
+        <img src="{{ include.image1 }}" alt="image1">
+      </td>
+      <td class="line-cell">
+        <hr>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="{{ include.image2 }}" alt="image2">
+      </td>
+    </tr>
+    <tr>
+      <td class="audio-cell">
+        <audio controls>
+          <source src="{{ include.audio }}" type="audio/mp3"> 
+          Your browser does not support the audio element.
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td class="line-cell">
+        <hr>
+      </td>
+    </tr>
+  </tbody>
 </table>
-
